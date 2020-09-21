@@ -1,0 +1,95 @@
+*{
+  margin:0;
+}
+
+html{
+  background-color: #fff;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  padding-bottom: 100px;
+}
+
+h1, h2, h3, h4, h5{
+  font-weight: 100;
+}
+
+.app {
+  text-align: center;
+}
+
+.app__header{
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-bottom: 1px solid #dbdbdb;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 40px;
+  color: #444;
+}
+
+.app__header h2 strong{
+  font-weight: 300;
+}
+
+.app_brand{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+
+.app_brand h1{
+  font-weight: 300;
+  color: #0081ff;
+}
+
+.app__logo{
+  object-fit: contain;
+  max-width: 34px;
+  margin-right: 12px;
+}
+
+.app__messages{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.app__form{
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
+  background-color: #f9f9f9;
+  border-top: 1px solid #dbdbdb;
+  width: 100%;
+  display: flex;
+}
+
+.app__form .app__formContainer{
+  width: 100%;
+  display: flex !important;
+  flex-direction: row;
+}
+
+.MuiInputBase-root{
+  flex: 1 !important;
+  float: left;
+  padding: 20px;
+}
+
+.MuiButtonBase-root{
+  flex: 0 !important;
+  border-radius: 0 !important;
+  float: left !important;
+  min-width: 100px !important;
+}
